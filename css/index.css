@@ -1,0 +1,142 @@
+/*header*/
+header{
+	width:6.4rem; 
+	height:3.32rem;
+	}
+header .title{
+	height:0.75rem; 
+	width:100%; 
+	background:#040404; 
+	position:relative;
+	}
+header .title h2{
+	font-family:'Microsoft YaHei';
+	width:100%; 
+	height:100%; 
+	color:#f5f9fc; 
+	font-size:0.3rem; 
+	line-height:0.7rem; 
+	text-align:center; 
+	position:absolute; 
+	font-weight:bold;
+	}
+header .title div{
+	width:0.4rem; 
+	height:0.3rem; 
+	position:absolute; 
+	left:0.46rem; 
+	top:0.23rem; 
+	}
+header .title div img{
+	width:100%; 
+	height:100%;
+	}
+
+header .banner{
+	width:100%;
+	height:2.57rem;
+	position:relative;
+	}
+header .banner img{
+	width:100%;
+	height:100%;
+	}
+header .banner p{
+	font-size:0.56rem;
+	color:#fff;
+	position:absolute;
+	top:0.8rem;
+	left:2.08rem;
+	font-family:'Microsoft YaHei';
+	}
+section{
+	font-size:0.2rem;
+	background:#fafafa;
+	overflow:hidden;
+	}
+section ul{
+	margin:0 0.2rem;
+	width:6.0rem;
+	height:2.5rem;
+	
+	}
+section ul li{
+	width:1.5rem;
+	height:100%;
+	text-align:center;
+	}
+section ul li.active{
+	color:red;
+	}
+section ul li.active .intr-svg .st0 {
+            fill:red;
+}
+section ul li .intr-svg {
+			margin-top:0.65rem;
+            width: 0.5rem;
+            height: 0.5rem;
+            margin-bottom: 0.3rem;
+    }
+section ol{
+	width:400%;
+	background:#fff;
+	}
+section ol li{
+	width:25%;
+	float:left;
+	}
+section ol li .oT{
+	height:0.4rem;
+	width:6.0rem;
+	margin:0 0 0.1rem 0.4rem;
+	margin-bottom:1rem;
+	}
+section ol li .oT div{
+	width:0.08rem;
+	background:red;
+	height:0.4rem;
+	}
+section ol li .oT h3{
+	margin-left:0.28rem;
+	font-size:0.36rem;
+	line-height:0.4rem;
+	color:red;
+	font-family:'Microsoft YaHei';
+	}
+section ol li .main{
+	width:5.1rem;
+	margin-left:0.85rem;
+	}
+section #mainImg .top{
+	width:100%;
+	height:1.0rem;
+	}
+section #mainImg .top img{
+	width:0.55rem;
+	height:0.55rem;
+	}
+section #mainImg .top img{
+	margin-right:1.5rem;
+	}
+section #mainImg .top img:nth-child(3){
+	margin-right:0.3rem;
+	}
+section #mainImg .bottom .left{
+	margin-right:0.6rem;
+	}
+
+section #mainImg .bottom .mid{
+	margin-right:0.6rem;
+	}
+section #mainImg .bottom img{
+	width:0.55rem;
+	height:0.35rem;
+	}
+section ol li .main img {
+	width:100%;
+	}
+section ol li .main p{
+	font-size:0.24rem;
+	line-height:0.4rem;
+	margin-top:1rem;
+	}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/base.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/swiper.min.css" rel="stylesheet"/>
+    <style>
+.swiper-container {width:calc(7.5rem - 1.024rem); height:3.3387rem; background:#fafafa; margin-top:0.5973rem;padding:0.9066rem 0.512rem 0rem;}
+    .swiper-slide { width:2.3253rem;}
+    .swiper-wrapper .swiper-slide .ico{  width:0.9386rem; height:0.7466rem; margin:0rem 0.693rem; background-size: 0.9386rem 0.7466rem; display: block; }
+    #one{background:url("img/elite.svg") no-repeat;  }
+    #two{background:url("img/medical.svg") no-repeat;  }
+    #three{background:url("img/leading.svg") no-repeat;  }
+    #four{background:url("img/cloud.svg") no-repeat;  }
+    #five{background:url("img/bigData.svg") no-repeat;  }
+    #six{background:url("img/ais.svg") no-repeat;  }
+    #seven{background:url("img/acs.svg") no-repeat;  }
+	.ico_wor{ font-size: 0.2986rem;line-height: 0.7146rem;text-align: center;display: block; }
+	.ico_eng{ font-size:0.192rem; line-height: 0.326rem; text-align: center; display: block; }
+
+
+</style>
+<script src="js/swiper.min.js"></script>
+
+<script src="js/index.js"></script>
+<script>
+window.onload=function(){
+        var oShow = document.getElementById('header_menu');
+        var oClose = document.getElementById('close');
+        var oMenu = document.getElementById('menu');
+        var oA = document.getElementById('our');
+        oMenu.style.display='none';
+        oShow.onclick=function(){
+            oMenu.style.display='block';
+        };
+        oClose.onclick=function(){
+            oMenu.style.display='none';
+        };
+        oA.onclick=function(){
+            oMenu.style.display='none';
+        };
+		
+		 var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        slidesPerView: 3,
+	        paginationClickable: true,
+	        spaceBetween: 30
+    	});
+		oMenu.style.display='none';
+        
+    }
+</script>
+</head>
+
+<body>
+    <div id="menu">
+        <p id="close">×</p>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="product.html">产品介绍</a></li>
+            <li><a href="#call" id="our">联系我们</a></li>
+        </ul>
+    </div>
+    <div id="header">
+        <img src="img/header_menu.png" alt="header_menu" id="header_menu"/>
+        <p>大数医达 </p>
+    </div>
+    <div id="banner">
+        <p class="p1">人工智能的一小步，</p>
+        <p class="p2 clearfix">
+            <span class="s1 fl">医疗健康</span>
+            <span class="s2 fl">一大步</span>
+        </p>
+    </div>
+    <div id="about">
+        <p class="title">
+            <span class="s1 fl">01</span>
+            <span class="s2 fl">关于</span>
+            <span class="s3 fl">我们</span>
+        </p>
+        <p class="main">
+            北京大数医达科技有限公司是一家在人工智能、大数据、云计算方面拥有国际领先水平的高科技企业，专注于多源异构医疗数据处理、深度挖掘与机器学习。
+        </p>
+    </div>
+    <div class="swiper-container">
+	        	<div class="swiper-wrapper">
+		             <div class="swiper-slide">
+			             <em id="one" class="ico"></em>
+			             <span class="ico_wor">顶尖团队</span>
+			             <span class="ico_eng">Elite</span>
+			             <span class="ico_eng">team</span>
+		             </div>
+		            <div class="swiper-slide">
+			             <em id="two" class="ico"></em>
+			             <span class="ico_wor">医学专家</span>
+			             <span class="ico_eng">Medical</span>
+			             <span class="ico_eng">experts</span>
+		             </div>
+		             <div class="swiper-slide">
+			             <em id="three" class="ico"></em>
+			             <span class="ico_wor">国际领先</span>
+			             <span class="ico_eng">Leading</span>
+			             <span class="ico_eng">interational</span>
+		             </div>
+		             <div class="swiper-slide">
+			            <em id="four" class="ico"></em>
+			             <span class="ico_wor">顶尖团队</span>
+			             <span class="ico_eng">Elite</span>
+			             <span class="ico_eng">team</span>
+		             </div>
+		             <div class="swiper-slide">
+			             <em id="five" class="ico"></em>
+			             <span class="ico_wor">医学专家</span>
+			             <span class="ico_eng">Medical</span>
+			             <span class="ico_eng">experts</span>
+		             </div>
+		             <div class="swiper-slide">
+			             <em id="six" class="ico"></em>
+			             <span class="ico_wor">国际领先</span>
+			             <span class="ico_eng">Leading</span>
+			             <span class="ico_eng">interational</span>
+		             </div>
+		             <div class="swiper-slide">
+			             <em id="seven" class="ico"></em>
+			             <span class="ico_wor">医学专家</span>
+			             <span class="ico_eng">Medical</span>
+			             <span class="ico_eng">experts</span>
+		             </div>
+	        	</div>
+   		 	</div>
+    <div id="team">
+        <p class="title">
+            <span class="s1 fl">02</span>
+            <span class="s2 fl">团队</span>
+            <span class="s3 fl">领袖--邓侃CTO</span>
+        </p>
+        <p class="main">
+            团队领袖邓侃博士是互联网领域著名技术专家，师从大数据学科创始人--美国卡内基梅隆大学(CMU)计算机学院院长Andrew Moore教授，专业从事机器学习和数据挖掘，曾Oracle主任架构师、百度搜索高级技术总监等职务。
+        </p>
+    </div>
+    <div id="future">
+        <p class="title">
+            <span class="s1 fl">03</span>
+            <span class="s2 fl">我们</span>
+            <span class="s3 fl">的愿景</span>
+        </p>
+        <p class="main">
+            大数医达拥有自主知识产权的医疗大数据系统，该系统把超大规模的云计算系统，深度学习和数据挖掘等大数据算法，应用到医疗领域，自动化、智能化融汇多元异构的医疗数据，把自然语言的非结构化病例，自动转化为结构化的病例，从中挖掘出医生的临床诊断和治疗经验，助力医疗大数据产业发展，促进医疗卫生健康事业进步，服务社会，造福人类。
+        </p>
+        <p id="play">
+            <video src="hd.mp4" controls></video>
+        </p>
+
+    </div>
+    <div id="call">
+        <p class="title">
+            <span class="s1 fl">04</span>
+            <span class="s2 fl">联系</span>
+            <span class="s3 fl">我们</span>
+        </p>
+        <p class="main">
+            地址：北京市海淀区东北旺西路8号中关村软件园一期3号楼3B区1206室<br />
+            公司邮箱：service@iyoudoctor.com<br />
+            公司网址：www.iyoudoctor.com
+        </p>
+    </div>
+    <div id="add">
+
+    </div>
+    <div id="bottom">京ICP备16013105号_1</div>
+</body>
+</html>
